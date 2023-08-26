@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(71, 71, 71);
+  display: flex;
+  justify-content: center;
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+}
+.container {
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-top: 30px;
+}
+.tituloTodoList {
+  margin-left: 5px;
+  border-bottom: 1px solid rgb(83, 10, 5);
+  margin-bottom: 10px;
+}
+.tituloTodoList h1 {
+  margin-left: 3px;
+}
+.tareaTodoList {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.tareaTodoList input {
+  height: 9vh;
+}
+.tareaTodoList button {
+  height: 9vh;
+  margin-left: 5px;
+  font-size: larger;
+  border: none;
+}
+.main-1 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.totales {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  padding: 10px;
+}
+.btn-without-border {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: 0px;
+}
+input[type="text"]::placeholder {
+  padding-right: 5px;
+}
+input[type="text"] {
+  padding-right: 10px;
+}
+.mensaje-vacio {
+  display: none;
+}
